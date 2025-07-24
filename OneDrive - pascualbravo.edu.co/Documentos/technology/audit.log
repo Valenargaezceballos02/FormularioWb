@@ -280,3 +280,673 @@ INFO:werkzeug:127.0.0.1 - - [23/Jul/2025 20:24:40] "GET /?__debugger__=yes&cmd=r
 INFO:werkzeug:127.0.0.1 - - [23/Jul/2025 20:24:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [23/Jul/2025 20:25:04] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [23/Jul/2025 20:25:06] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Fallo de login para usuario: f
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:18:47] "POST /login HTTP/1.1" 200 -
+INFO:root:Fallo de login para usuario: dadasd
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:18:54] "POST /login HTTP/1.1" 200 -
+INFO:root:Fallo de login para usuario: dfdsf
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:19:01] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:23:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:23:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:23:17] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:23:18] "GET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:23:18] "GET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:23:18] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=ZqRgTJn9TkMobhP9JGBf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:23:18] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:29:54] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:29:54] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:29:55] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:29:55] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=BNRW4wOKXHKoehcV3Fgh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:29:55] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:29:57] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:29:58] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:29:58] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:29:58] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=BNRW4wOKXHKoehcV3Fgh HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:29:58] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:25] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:25] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:25] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:26] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=0S1RegXG6ZzLGiQWX8sR HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:26] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:37] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:37] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:37] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:37] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=VTZkqMzq3YMlKKFzshYs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:38] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:41] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=VTZkqMzq3YMlKKFzshYs HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:30:49] "GET /login HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:31:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:31:02] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:31:02] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:31:02] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 13:31:02] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=VTZkqMzq3YMlKKFzshYs HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:28:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:28:58] "GET /login HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:09] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:10] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:10] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:10] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=zcDMxznsylo7hL6RrCba HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:10] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:34] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:34] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:34] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:34] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=XR8wfLZ6KAEi15SFJl4J HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:34] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:41] "GET /login HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:50] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:51] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:51] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:29:51] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=XR8wfLZ6KAEi15SFJl4J HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:30:40] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:30:40] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:30:40] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:30:40] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=Cv5lvk1jZr5ncmSpseu8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:30:40] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:32:55] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:32:55] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:32:55] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:32:55] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=JOTanwrj9Fm3FMgcWkEZ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:32:56] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:33:40] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:33:40] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:33:40] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:33:40] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=b2CQGCsVIQFZIcj2kUY0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:33:41] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:36:42] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:36:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:36:43] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:36:43] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=3IlB2gZ9zjKzV9xTaRoE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:36:43] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:17] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:18] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:18] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:18] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=oNzpTkJhwcVgze6sZUy2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:18] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:30] "GET /login HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:42] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:37:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=oNzpTkJhwcVgze6sZUy2 HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:39:42] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:39:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:39:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:39:42] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=xPsaQHbX2oKHmZW6e29D HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:39:43] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:55:51] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:55:51] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:55:52] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:55:52] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=2fFaUnLzh3xLUgm8fhPw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:55:52] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:56:22] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:56:55] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:56:56] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:56:56] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:56:56] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=TKJm4QQAhsLlkoRVy86G HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:56:56] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:57:26] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:59:06] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:59:06] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:59:06] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:59:06] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=uvhN5yXUx8bWTTWkFbq6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 14:59:06] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:00:38] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:00:38] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:00:38] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:00:39] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=I5KVDt6ADfo0GJUKGLCB HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:00:39] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:01:22] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:01:22] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:01:22] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:01:22] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=6CZRgHZAn9Apt2Xn8Ug4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:01:22] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:01:57] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:01:57] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:01:57] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:01:58] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=GB22qslLuLpS9brHWbR3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:01:58] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:02:00] "GET /login HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:02:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:02:09] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:02:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:02:11] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:02:11] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:02:12] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:02:12] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=GB22qslLuLpS9brHWbR3 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:05:38] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:05:38] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:05:39] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:05:39] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=GB22qslLuLpS9brHWbR3 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:05:39] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:08:29] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:09:32] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:10:26] "[35m[1mPOST /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:10:26] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:10:26] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:10:27] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=sZ68z4nUjedYqE4j6py4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:10:27] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:11:33] "[35m[1mPOST /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:11:33] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:11:33] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:11:33] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=Tz6CtKzYFKHzXkRZYu9z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:11:34] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:11:57] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:12:38] "GET /login HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:12:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:12:45] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:14:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:14:19] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:15:23] "[35m[1mPOST /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:15:23] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:15:23] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:15:24] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=x1txswxcj3f8Pi9PA8RC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:15:24] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:18:11] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:18:42] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:18:42] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:18:43] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:18:43] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=bX8vayNAyfRETmN4q7kx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:18:43] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:10] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:10] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:10] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:10] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=SwyNL264bWOVXjxYIwTi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:10] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:13] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:13] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:13] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:14] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=SwyNL264bWOVXjxYIwTi HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:32] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:32] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:32] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:33] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=KZFBb4GI4v9Cp18VJCX8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:22:33] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:23:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:23:12] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:23:12] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:23:13] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:23:13] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=DaC9GfHCZqyGq1jMaKMn HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:25:04] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:25:05] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:25:05] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:25:05] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=3TLy9gPdFsCsdaeBOFeZ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:25:05] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:25:22] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:25:52] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:26:50] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:31:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:31:50] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:34:42] "POST /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:35:22] "GET /2fa HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:35:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:35:26] "GET /2fa HTTP/1.1" 200 -
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:35:39] "POST /2fa HTTP/1.1" 200 -
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:36:22] "POST /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:37:49] "POST /2fa HTTP/1.1" 200 -
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:38:23] "POST /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:41:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:41:27] "GET /login HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:41:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:41:39] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:42:23] "GET /2fa HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:42:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:42:29] "GET /2fa HTTP/1.1" 200 -
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:42:50] "POST /2fa HTTP/1.1" 200 -
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:43:15] "POST /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\genera.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:44:23] "[35m[1mPOST /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:44:23] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:44:23] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:44:23] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=HO8agSjZPVhN4XGX8m8l HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:44:24] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:48:29] "POST /2fa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:48:46] "[35m[1mPOST /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:48:46] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:48:46] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:48:46] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=zormZyXOcBf3o5gmR86g HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:48:46] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:50:53] "POST /2fa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:51:12] "[35m[1mPOST /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:51:13] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:51:13] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:51:13] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=XyGpFBVkBKmthYrSVtZN HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:51:13] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:53:33] "POST /2fa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:53:56] "[35m[1mPOST /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:53:57] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:53:57] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 15:53:57] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=So3SFJr38NT88uJphAs8 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:10:38] "POST /2fa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:10:56] "[35m[1mPOST /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:10:56] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:10:56] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:10:56] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=FpGkDMXBMAuHeZl5UA0q HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:10:57] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:12:31] "[32mPOST /2fa HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:12:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:12:33] "GET /login HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:12:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:12:44] "GET /2fa HTTP/1.1" 200 -
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:13:01] "POST /2fa HTTP/1.1" 200 -
+INFO:root:Autenticación 2FA exitosa para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:13:15] "[32mPOST /2fa HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:13:15] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:21:53] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:21:53] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:21:53] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:21:53] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=htYGs8a3IIuGPTxbWZlC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:21:54] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:23] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:24] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:24] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:24] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=2zLvDh84Yi4s2sVc6UL2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:24] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:31] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:31] "GET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=2zLvDh84Yi4s2sVc6UL2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:31] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:34] "[35m[1mGET /2fa HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:34] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:34] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:35] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png&s=2zLvDh84Yi4s2sVc6UL2 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:35] "[36mGET /2fa?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:22:59] "GET /2fa HTTP/1.1" 200 -
+INFO:root:Fallo en 2FA para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:23:33] "POST /2fa HTTP/1.1" 200 -
+INFO:root:Autenticación 2FA exitosa para admin
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:23:47] "[32mPOST /2fa HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 16:23:48] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:08:55] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:08:55] "GET /login?next=/dashboard HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:09:12] "[32mPOST /login?next=/dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:09:12] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:12:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:12:49] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Fallo de login para usuario: user
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:13:38] "POST /login HTTP/1.1" 200 -
+INFO:root:Fallo de login para usuario: user
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:13:50] "POST /login HTTP/1.1" 200 -
+INFO:root:Usuario admin pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:14:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:14:47] "GET /2fa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:14:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:14:58] "GET /login HTTP/1.1" 200 -
+INFO:root:Fallo de login para usuario: user
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:15:11] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\farina\\Downloads\\kali-linux-2025.2-virtualbox-amd64\\FormularioWb\\OneDrive - pascualbravo.edu.co\\Documentos\\technology\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 346-496-679
+INFO:root:Usuario user pasó autenticación inicial.
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:16:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [24/Jul/2025 18:16:21] "GET /2fa HTTP/1.1" 200 -
